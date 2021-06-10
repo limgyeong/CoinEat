@@ -32,9 +32,9 @@ public class CoinEat extends JFrame {
         setTitle("동전 먹기 게임");
         setVisible(true);
         setSize(500,500);
-        //setLocationRelativeTo(null);
+        setLocationRelativeTo(null);
         setResizable(false);
-        //setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         addKeyListener(new KeyAdapter(){
             public void keyPressed(KeyEvent e){
                 switch(e.getKeyCode()){
